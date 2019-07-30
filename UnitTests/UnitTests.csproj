@@ -1,18 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <AssemblyName>QualityProducts</AssemblyName>
-    <RootNamespace>SilentOak.QualityProducts</RootNamespace>
-    <Version>2.1.2</Version>
+    <AssemblyName>UnitTests</AssemblyName>
+    <RootNamespace>SilentOak.UnitTests</RootNamespace>
+    <Version>1.0.0</Version>
     <TargetFramework>net452</TargetFramework>
     <Platforms>x86</Platforms>
     <PlatformTarget>x86</PlatformTarget>
-
-    <IgnoreModFilePatterns>0Harmony.dll, nunit\.framework\.dll</IgnoreModFilePatterns>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="3.0.0-beta.7" />
+    <PackageReference Include="Lib.Harmony" Version="1.2.0.1" />
+    <PackageReference Include="nunit" Version="3.11.0" />
   </ItemGroup>
 
   <ItemGroup>
